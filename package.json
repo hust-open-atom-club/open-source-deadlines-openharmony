@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@react-native-oh-tpl/async-storage": "^1.21.0-0.2.2"
+  }
+}
