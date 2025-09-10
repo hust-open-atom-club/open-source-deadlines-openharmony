@@ -37,6 +37,10 @@
           ]
         }
       ]
+    },
+    {
+      name: 'async_storage',
+      srcPath: './async_storage',
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  module: {
+    name: 'async_storage',
+    type: 'har',
+    deviceTypes: ['default'],
+  },
+}

@@ -1,0 +1,14 @@
+{
+  "license": "",
+  "devDependencies": {
+
+  },
+  "author": "",
+  "name": "@react-native-oh-tpl/async-storage",
+  "version": "1.21.0-0.2.2",
+  "description": "",
+  "main": "ts.ts",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "0.72.75"
+  }
+}

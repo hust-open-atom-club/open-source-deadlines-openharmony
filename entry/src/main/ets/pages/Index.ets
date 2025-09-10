@@ -9,7 +9,7 @@ import {
   RNOHLogger,
   TraceJSBundleProviderDecorator,
   RNOHCoreContext } from '@rnoh/react-native-openharmony';
-import { createRNPackages } from '../rn/RNPackagesFactory';
+import { createRNPackages } from '../RNPackagesFactory';
 
 @Builder export function buildCustomRNComponent(ctx: ComponentBuilderContext) {}
 
@@ -45,7 +45,7 @@ const wrappedCustomRNComponentBuilder = wrapBuilder(buildCustomRNComponent)
           rnInstanceConfig: {
             createRNPackages,
             enableNDKTextMeasuring: true, // 该项必须为true，用于开启NDK文本测算
-            enableBackgroundExecutor: false,
+            enableBackgroundExecutor: true,
             enableCAPIArchitecture: true, // 该项必须为true，用于开启CAPI
             arkTsComponentNames: [],
             fontResourceByFontFamily: {
