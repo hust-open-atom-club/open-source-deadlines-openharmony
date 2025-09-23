@@ -5,9 +5,9 @@
             "path": "./src/main/cpp/CMakeLists.txt",
            "arguments": "",
            "cppFlags": "",
-           "abiFilters": [
-           "x86_64"
-          ]
+//           "abiFilters": [
+//           "x86_64"
+//          ]
           }
   },
   "buildOptionSet": [

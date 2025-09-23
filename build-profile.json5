@@ -1,12 +1,52 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/23629/.p2/oseddl.p12",
+          "storePassword": "000000184B6108CC8E7F2C74CDEBB8EF88C8774EAE9AEB16C603C066D38F7C9214B3A6F0D939EA17",
+          "keyAlias": "oseddl",
+          "keyPassword": "0000001847E72B7D484EFCDFEBC5E93E22E024415722F3B9B1B7F7697719C304BBC35C8F1921BC85",
+          "signAlg": "SHA256withECDSA",
+          "profile": "C:/Users/23629/.p2/pubRelease.p7b",
+          "certpath": "C:/Users/23629/.p2/oseddl_pub.cer"
+        }
+      },
+      {
+        "name": "dev",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\23629\\.ohos\\config\\dev_osedlloh_KRu1cWw9OnF-AD5-f4PSwCHz1tczqI6_5o79zVwqYqI=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B440AA39D19FA8FAF835080E02B7B7106B8EB6ADAE2A99E116F84BA7AD610B73FA49994B28A64F3",
+          "profile": "C:\\Users\\23629\\.ohos\\config\\dev_osedlloh_KRu1cWw9OnF-AD5-f4PSwCHz1tczqI6_5o79zVwqYqI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\23629\\.ohos\\config\\dev_osedlloh_KRu1cWw9OnF-AD5-f4PSwCHz1tczqI6_5o79zVwqYqI=.p12",
+          "storePassword": "0000001BD09C49734D9CBC1FB87BDE5C22628928481C59DEF9FF9FAEA32828DC2630D0792913A5E4301FAF"
+        }
+      },
+      {
+        "name": "debug",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/23629/.p2/oseddl.p12",
+          "storePassword": "00000018F506D371684BEE7D5814958674B66E04935964DD9F7A5F835B716FC415D28484D5BDF29D",
+          "keyAlias": "oseddl",
+          "keyPassword": "00000018FD73D5690427387BBB2D88D744A5592BCDE307D8FB6A813E5C2DF7C848D025E557662DF0",
+          "signAlg": "SHA256withECDSA",
+          "profile": "C:/Users/23629/.p2/debugDebug.p7b",
+          "certpath": "C:/Users/23629/.p2/oseddl_pub.cer"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
-        "signingConfig": "default",
+        "signingConfig": "dev",
         "targetSdkVersion": "5.1.1(19)",
-        "compatibleSdkVersion": "5.1.1(19)",
+        "compatibleSdkVersion": "5.0.5(17)",
         "runtimeOS": "HarmonyOS",
         "buildOption": {
           "strictMode": {
