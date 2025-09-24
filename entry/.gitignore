@@ -4,3 +4,7 @@
 /build
 /.cxx
 /.test
+!src/main/resources/rawfile/
+!src/main/resources/rawfile/**
+!src/main/resources/rawfile/**/node_modules/
+!src/main/resources/rawfile/**/node_modules/**
